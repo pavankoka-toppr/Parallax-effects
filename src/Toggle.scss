@@ -1,0 +1,29 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    font: karla;
+    font-size: 13px;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+}
+
+button:focus {outline:0;}
+
+h1 {
+    font: karla;
+    font-size: 15px;
+    color: rgb(230, 230, 240);
+}
+
+p {
+    font: karla;
+    font-size: 20px;
+    color: rgb(230, 230, 240);
+}
