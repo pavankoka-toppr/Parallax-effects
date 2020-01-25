@@ -498,6 +498,12 @@ module.exports = function (webpackEnv) {
               loaders: ['style','css','sass','scss']
             },
             {
+              loader: 'sass-resources-loader',
+              options: {
+                resources: scssResources
+              },
+            },
+            {
               loader: require.resolve('file-loader'),
               // Exclude `js` files to keep "css" loader working as it injects
               // its runtime that would otherwise be processed through "file" loader.
